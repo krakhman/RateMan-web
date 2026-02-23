@@ -1,15 +1,15 @@
 # Prague Currency Rates Website 
 link: https://krakhman.github.io/RateMan-web/
 
-A web application developed with JavaScript, HTML, and CSS, showcasing real-time exchange rates for banks and exchanges in Prague. RateMan uses the Fetch API to pull data from the kurzy.cz public API, providing users with up-to-date currency exchange rates. The app includes filters and sorting options to find the best buy/sell rates, all wrapped in a responsive, user-friendly interface.
+A responsive website developed with JavaScript, HTML, and CSS, showcasing real-time exchange rates for banks and exchanges in Prague. This website uses the Fetch API to pull data from the kurzy.cz public API, providing users with up-to-date currency exchange rates. The app includes filters and sorting options to find the best buy/sell rates, all wrapped in a responsive, user-friendly interface.
 
 ## Project Goal
 
-The goal of RateMan is to create an intuitive and reliable tool for comparing currency exchange rates across various providers in Prague, including banks, exchanges, and crypto exchanges. It aims to help users—such as travelers, investors, or locals—find the best rates for buying or selling currencies by offering real-time data, powerful filtering, and a seamless experience across desktop and mobile devices.
+The goal of this project is to create an intuitive and reliable tool for comparing currency exchange rates across various providers in Prague, including banks, exchanges, and crypto exchanges. It aims to help users—such as travelers, investors, or locals—find the best rates for buying or selling currencies by offering real-time data, powerful filtering, and a seamless experience across desktop and mobile devices.
 
 ## Approach
 
-RateMan was built using a modular and maintainable architecture to ensure scalability and ease of development:
+The website was built using and maintainable architecture to ensure scalability and ease of development:
 
 1. **Data Fetching**: The app leverages the Fetch API to retrieve exchange rate data from the kurzy.cz API (`https://data.kurzy.cz/json/meny/b[-1].json`). Data is cached in `localStorage` to provide partial offline functionality.
 2. **Backend Logic**: JavaScript classes (`CurrencyCode`, `RateProvider`, `CurrencyRate`) handle data validation and structuring, ensuring robust processing of currency codes and rates.
@@ -20,7 +20,7 @@ RateMan was built using a modular and maintainable architecture to ensure scalab
 
 ## Features
 
-RateMan offers the following functionality to deliver a comprehensive currency comparison experience:
+This website provides a comprehensive currency comparison experience:
 
 - **Real-Time Exchange Rate Display**: Fetches and displays current exchange rates for multiple currencies (e.g., USD, EUR, GBP) from Prague-based providers, updated via the kurzy.cz API.
 - **Filter for Best Rates**: Users can filter providers by:
