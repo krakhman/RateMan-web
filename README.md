@@ -1,5 +1,5 @@
 # Prague Currency Rates Website 
-link: https://krakhman.github.io/RateMan-web/
+link: https://krakhman.github.io/prague-currency-web/
 
 A responsive website developed with JavaScript, HTML, and CSS, showcasing real-time exchange rates for banks and exchanges in Prague. This website uses the Fetch API to pull data from the kurzy.cz public API, providing users with up-to-date currency exchange rates. The app includes filters and sorting options to find the best buy/sell rates, all wrapped in a responsive, user-friendly interface.
 
